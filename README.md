@@ -1,106 +1,61 @@
-🐦
-SayIT
 
-It's a crrosplatform app (web app and mobile app) developped by the triodev team. 
-Technologies: Flutter (dart) and Firebase
+# SayIt 
 
-The project is also available at: sayt.haroldraj.dev
+---
 
+## Introduction
+SayIt aims to provide a seamless and consistent user experience across both mobile and web platforms. The main goal is to ensure users enjoy a unified experience whether on smartphones, tablets, or computers. The mobile app supports both iOS and Android, while the web app is accessible through common web browsers. Both applications are closely integrated, sharing much of their business logic and functionality.
 
+## Architecture
+The project utilizes the Flutter framework which follows the Model-View-Controller (MVC) architecture. This architecture promotes separation of concerns, making the code clean and maintainable. Flutter's reactive widget system and state management capabilities (including Stateful Widgets, Provider, and Bloc Pattern) ensure an efficient and effective user interface construction and management.
 
-Introduction
-Skyler White acquired SayIT in May 2022 in order to revolute this famous social
-network.
-SayIT is a social network created in 2006 by Werner Heisenberg, the social network
-pretend to be a public place where everybody is able to debate on SayIT where EACH
-post ( also called as a SIT , cannot exceed 140 characters to improve and optimize
-each post content.
-Before becoming a Business Women in New York, she used to be a accountant for
-some privates company in Albuquerque such as Fuel pump or an Industrial.
-Behond the financial aspect, Skyler is convinced about transparency and preserve
-confidentiality and integrity of the customer’s Data.
-The new brand of SayIT is: Speech, with trust
- .
+## Installation
+To set up the SayIt project on your local machine, follow these steps:
 
-Preamble
-All technologies used should permit to guarantee the confidentiality, and the public trust.
-They also need to innovate and perfectly fitted for your need.
-MicroServices architecture will be appreciated if needed.
-User’s management ( 2 points )
-Login Registration ( 1 point )
-Your app must permit registration and login.
-The email address should be validated thanks a confirmation mail.
-Login with Google & Facebook account ( 1 point )
-You must also permit to a user to login thought Google & Facebook to improve the
-registration & login process
-SIT Management ( 2 points )
+1. **Install Android Studio**: Download from [Android Studio official site](https://developer.android.com/studio).
+2. **Install Flutter SDK**: Download the SDK from [Flutter's official site](https://flutter.dev/docs/get-started/install) and follow the setup instructions for your operating system.
+3. **Build the Application**: With Android Studio and Flutter SDK installed, you can clone the project, open it in Android Studio, and build it to get an executable version of the app.
 
-Users can create SIT either from the Web Interface, the mobile app, or thought the
-SayIT API.
-All SIT should be inserted into your confident and distributed storage.
-Definition of a
- SIT
-      id
-      type ( sit or a resit )
-      “sit”
-      “resit” ( it create a sort of duplication of a
-       sit
-       while keeping the reference of
-      content:
-      IF it’s a
-       sit
-       , the content is a string of 140 characters maximum
-      IF it’s a
-       resit
-       , the content is the ID of the initial
-       sit
-      reply_to: ID of another
-       sit
-      A sit can be liked by Users.
-      
-      
-Applications ( 6 points )
-The application should be available for both desktop as web application which must be
-totally responsive to work on a mobile browser.
-Feed generation ( 3 points )
-The app load a SIT feed which is generated thanks artificial intelligence.
-In our mind, the behaviour is the following: “The last sit which gonna interest the user”.
+## API and Interfaces
+The application uses the Dart programming language, which is efficient, effective, and easy to learn. Dart is used for both Flutter mobile app development and managing various functionalities like HTTP requests, file operations, and asynchronous tasks.
 
- 
-You are in charge to develop the AI.
-It’s the homepage of a logged user.
+## Database
+Firestore Database is used as a fully managed NoSQL database by Firebase. It allows real-time data storage and synchronization across client apps and the backend.
 
-Account management ( 1 point )
-You must permit to the user to edit his mail address.
-All mail address edition result to a mail confirmation as mentioned in the registration.
-
-Author page overview ( 1 point )
-You must permit to visit the page of a user IF he configured his profile as public.
-Then you will be able to see his SIT, like them or comment them
-
-Notification ( 1 point )
-When you observe thanks your AI a post which will have more than 90% to interest him
-should trigger a notification on the mobile app or the desktop website.
-When a user make a SIT mentionning the user ( when a sit contain the following
-pattern: @USERNAME ) a notification must be done to the @USERNAME to alert him.
-
-Infrastructure ( 5 points )
-Scalability and high availability ( 3 points )
-Your infrastructure must be highly scalable and must be fault tolerant.
-
-
-You must also develop a solution to easily setup new server inside your infrastructure
-thanks automation tool ( no manual setup will be accepted except setup the OS ).
-If your infrastructure is not scallable, no point will be attributed.
-
-User’s Security ( 2 points )
-Your application should be protected, all customers data must of course, be encrypted
-inside the storage solution.
-An anonym user should not be able to access to data inside your Database except by
-making clean request thought the DBMS.
-To resume, the storage must be encrypted.
-Keep in mind to apply GDPR inside your project.
-If your project is not GDPR compliant, it will not be evaluated.
+## Features
+- **Google Authentication and Email-based Authentication with Email Confirmation**
+- **User Profile Customization**
+- **Real-time Like and Followers Count**
+- **Interactive User Posts and Comments System**
 
 
 
+## Screenshots
+![image](https://github.com/takkamdarios/SayIT/assets/53516925/71e107cd-8636-4b30-a1dd-f72c819eb672)
+
+
+![image](https://github.com/takkamdarios/SayIT/assets/53516925/bd8efb1c-b2c4-4909-a918-ebcf6403d4f5)
+
+
+![image](https://github.com/takkamdarios/SayIT/assets/53516925/ef8db8ef-c26d-4b7b-8a8a-bd8341cae8be)
+
+![image](https://github.com/takkamdarios/SayIT/assets/53516925/0372ccc1-fdb0-42b3-a48c-5763e6d4fe05)
+
+![image](https://github.com/takkamdarios/SayIT/assets/53516925/64b7c1c3-a1ba-4183-9bc1-fd613c122cb8)
+
+![image](https://github.com/takkamdarios/SayIT/assets/53516925/ce5207af-d822-496f-a323-034354b4b449)
+
+![image](https://github.com/takkamdarios/SayIT/assets/53516925/b1a28e40-8644-4e50-8e96-762601830546)
+
+![image](https://github.com/takkamdarios/SayIT/assets/53516925/60ed4280-cbad-4b42-a509-5067d6108848)
+
+![image](https://github.com/takkamdarios/SayIT/assets/53516925/3be7065e-2d21-4507-9164-60e8841b8e0c)
+
+![image](https://github.com/takkamdarios/SayIT/assets/53516925/fb6f82f4-0f7a-49af-8d1c-e33bfb66f583)
+
+
+## Conclusion
+SayIt uses advanced technologies to provide a robust and responsive user experience. The use of Flutter and Firestore ensures that the application is scalable, reactive, and able to handle real-time data effectively.
+
+## Acknowledgements
+Thanks to everyone who contributed to this project, especially our professor, Henri Devigne, for his guidance and support. Special thanks to Van Gloria Elder and Artur Hoogers for their valuable advice.
