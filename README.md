@@ -57,5 +57,4 @@ Firestore Database is used as a fully managed NoSQL database by Firebase. It all
 ## Conclusion
 SayIt uses advanced technologies to provide a robust and responsive user experience. The use of Flutter and Firestore ensures that the application is scalable, reactive, and able to handle real-time data effectively.
 
-## Acknowledgements
-Thanks to everyone who contributed to this project, especially our professor, Henri Devigne, for his guidance and support. Special thanks to Van Gloria Elder and Artur Hoogers for their valuable advice.
+
