@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "578805552376",
+    "project_id": "sayit-dc5dc",
+    "storage_bucket": "sayit-dc5dc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:578805552376:android:b76fc86fd04197322c970d",
+        "android_client_info": {
+          "package_name": "com.example.sayit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "578805552376-95agj5efmtonif9ss29u9kjiipoca0vm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sayit",
+            "certificate_hash": "60c708a0de21be82722a752acdabaff350fe62b5"
+          }
+        },
+        {
+          "client_id": "578805552376-cgi0ov398np19alg043vurp32v6k02gr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRN9kA-MutRKLoCrvvkA5OLmDp7AN1Ecg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "578805552376-cgi0ov398np19alg043vurp32v6k02gr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
